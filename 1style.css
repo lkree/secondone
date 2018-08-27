@@ -1,0 +1,98 @@
+.textplaceholder {
+      position: relative;
+      text-align: center;
+      font-style: italic;
+      margin: 15vw auto;
+      padding: 5vw;
+      max-width: 50vw;
+      font-size: 20px;
+      min-width: 30vw;
+      min-height: 30vw;
+      background: white;
+      border-radius: 25px;
+      box-shadow: 0 0 100px rgba(0,0,0,0.5); 
+}
+.textplaceholder textarea {
+      display: inline-block;
+      min-width: 40vw;
+      min-height: 15vw;
+      margin: 2vw;
+
+}
+.textplaceholder input {
+      max-width: 33vw;
+}
+.success {
+      max-width: 30vw;
+      min-height: 2vh;
+      margin: 40vh auto;
+      padding: 3vh 0;
+      text-align: center;
+      font-style: italic;
+      font-size: 20px;
+      background: white;
+      border-radius: 25px;
+      box-shadow: 0 0 100px rgba(0,0,0,0.5); 
+}
+.link {
+      margin: auto;
+      top: 60%;
+      left: 40%;
+      position: absolute;
+      z-index: 1;
+      color: red;
+      text-decoration: none;
+      font-size: 18px;
+      border-bottom: 2px solid gray;
+}
+input[type="text"] {
+      display: block;
+      position: relative;
+      left: 50%;
+}
+.successtext {
+      background: white;
+      border-radius: 25px;
+      box-shadow: 0 0 100px rgba(0,0,0,0.5);
+      z-index: 1;
+      max-width: 40vw;
+      min-width: 31vw;
+      min-height: 20vh;
+      font-size: 20px;
+      padding: 2vw;
+      overflow: auto;
+      position: fixed;
+      top: 30%;
+      left: 30%;
+}
+.wrongpassword {
+      color: red;
+      font-size: 2vw;
+      position: absolute;
+      top: 28%;
+      left: 22%;
+      -webkit-animation: wrongpassword 3s linear infinite;
+      animation: wrongpassword 3s linear infinite;
+}
+.backurl {
+      position: absolute;
+      font-size: 1.5vw;
+      color: gray;
+      top: 34%;
+      left: 38%;
+      text-decoration: none;
+}
+.backurl:hover {
+      color: greenyellow;
+
+}
+@-webkit-keyframes wrongpassword {
+      0% { color: rgba(34, 34, 34, 1); }
+      50% { color: rgba(34, 34, 34, 0); }
+      100% { color: rgba(34, 34, 34, 1); }
+}
+@keyframes wrongpassword {
+      0% { color: rgba(34, 34, 34, 1); }
+      50% { color: rgba(34, 34, 34, 0); }
+      100% { color: rgba(34, 34, 34, 1); }
+}
